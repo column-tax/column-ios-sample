@@ -16,7 +16,6 @@
 		D2A8D6A32411B31700928F4F /* ColumnWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8D6A22411B31700928F4F /* ColumnWebView.swift */; };
 		D2A8D6A72411C7A700928F4F /* ColumnModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8D6A62411C7A700928F4F /* ColumnModuleView.swift */; };
 		D2A8D6D124120CE300928F4F /* ColumnMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8D6D024120CE300928F4F /* ColumnMessageHandler.swift */; };
-		D2A8D6D32412D76600928F4F /* UrlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8D6D22412D76600928F4F /* UrlBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		D2A8D6A22411B31700928F4F /* ColumnWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnWebView.swift; sourceTree = "<group>"; };
 		D2A8D6A62411C7A700928F4F /* ColumnModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnModuleView.swift; sourceTree = "<group>"; };
 		D2A8D6D024120CE300928F4F /* ColumnMessageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnMessageHandler.swift; sourceTree = "<group>"; };
-		D2A8D6D22412D76600928F4F /* UrlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 			children = (
 				D2A8D6A62411C7A700928F4F /* ColumnModuleView.swift */,
 				D2A8D6A22411B31700928F4F /* ColumnWebView.swift */,
-				D2A8D6D22412D76600928F4F /* UrlBuilder.swift */,
 				D2A8D6D024120CE300928F4F /* ColumnMessageHandler.swift */,
 				D2A8D6922411B2E500928F4F /* ContentView.swift */,
 				D2A8D68E2411B2E500928F4F /* AppDelegate.swift */,
@@ -161,7 +158,6 @@
 				D2A8D68F2411B2E500928F4F /* AppDelegate.swift in Sources */,
 				D2A8D6D124120CE300928F4F /* ColumnMessageHandler.swift in Sources */,
 				D2A8D6A32411B31700928F4F /* ColumnWebView.swift in Sources */,
-				D2A8D6D32412D76600928F4F /* UrlBuilder.swift in Sources */,
 				D2A8D6912411B2E500928F4F /* SceneDelegate.swift in Sources */,
 				D2A8D6A72411C7A700928F4F /* ColumnModuleView.swift in Sources */,
 				D2A8D6932411B2E500928F4F /* ContentView.swift in Sources */,

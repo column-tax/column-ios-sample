@@ -1,8 +1,6 @@
 import SwiftUI
 
-let urlBuilder = UrlBuilder()
-
-let token = "<put user token from backend here>"
+let url = "<put user url from backend here>"
 
 struct ContentView: View {
     @State var activeWebView = false
@@ -21,7 +19,7 @@ struct ContentView: View {
                         .border(Color(.white), width: 5)
                 }.sheet(isPresented: $activeWebView, content: {
                     ColumnModuleView(
-                        urlRequest: URLRequest(url: URL(string: urlBuilder.createUrlForWebView(token: token))!),
+                        urlRequest: URLRequest(url: URL(string: url)!),
                         isPresented: self.$activeWebView,
                         moduleEventController: ColumnMessageHandler(eventHandler: self.eventHandler)).edgesIgnoringSafeArea(.all)
                 })
@@ -33,6 +31,8 @@ struct ContentView: View {
         switch event {
         case "column-on-close":
             activeWebView = false
+        case "column-on-user-event":
+            print("Received user event: '\(event)'")
         default:
             print("Unrecognized event: '\(event)'")
         }
