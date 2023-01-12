@@ -33,6 +33,8 @@ struct ContentView: View {
         switch event {
         case "column-on-close":
             activeWebView = false
+        case "column-on-user-event":
+            print("Received user event: '\(event)'")
         default:
             print("Unrecognized event: '\(event)'")
         }

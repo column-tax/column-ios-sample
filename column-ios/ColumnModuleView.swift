@@ -17,6 +17,7 @@ struct ColumnModuleView: UIViewRepresentable {
     func makeUIView(context: Context) -> ColumnWebView  {
         let columnWebView = ColumnWebView()
         columnWebView.configuration.userContentController.add(moduleEventController, name: "column-on-close")
+        columnWebView.configuration.userContentController.add(moduleEventController, name: "column-on-user-event")
         return columnWebView
     }
 }
