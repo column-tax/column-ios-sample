@@ -8,6 +8,13 @@ class NavigationDelegate: NSObject, WKNavigationDelegate {
             "columnapi.com",
             "env.bz"
         ];
+        
+        // Check if the navigation is in a subframe (like an iframe)
+        if navigationAction.targetFrame?.isMainFrame == false {
+            // If it's not the main frame, always allow it to load within the WebView
+            decisionHandler(.allow)
+            return
+        }
 
         guard let url = navigationAction.request.url else {
             decisionHandler(.allow)
