@@ -2,6 +2,9 @@
 
 See the full documentation here: https://docs.columntax.com/
 
+> [!NOTE]
+> We recommend use of our iOS SDK rather than using this sample app. See our [Mobile SDK Guide](https://docs.columntax.com/reference/mobile-sdk-guide) for more details.
+
 ## Getting Started
 
 1. Open the project in XCode
